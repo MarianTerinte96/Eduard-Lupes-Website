@@ -1,0 +1,173 @@
+body,html{
+	width: 100%;
+	min-height: 100%;
+	margin: 0px;
+	position: relative;
+	
+
+}
+header{
+	z-index: -1;
+}
+.head{
+	z-index: -1;
+	text-align:center;
+	width: 100%;
+	height: 20%;
+	position: relative;
+}
+.head h4{
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+.head h2{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.poza{
+	z-index: 1;
+	position: absolute;
+	width: 100%;
+	height: 60%;
+}
+.poza img {
+	z-index: 1;
+	width: 80px;
+	height: 80px;
+	border-radius: 100px;
+	position: relative;
+	display: inline-block;
+	right: : 45%;
+	margin:0px;
+}
+.text_poza{
+	position: absolute;
+	left: 45%;
+	color:white;
+}
+.poza_fundal img{
+	width: 100%;
+	height: 600px;
+	z-index: -1;
+}
+.text{
+	display: inline-block;
+	height: 30%;
+	width: 100%;
+
+}
+
+.mainContainer{
+	float:left;
+	background-color:#F4F3F3;
+	width: 100%;
+	height: 80%;
+	position: relative;
+	
+}
+.content{
+
+	padding-left:10px;
+	padding-right:10px; 
+	font:1.2em "Times New Roman", serif;
+	line-height: 30px;
+	border-style: groove;
+	border-radius: 8px ;
+	border:1px solid #ddd;
+	overflow-y: visible;
+	margin-top:-45px;
+	left: 15%;
+	background-color: #F6F6F6;
+	display: inline-block;
+	float: left;
+	height: 100%;
+	width: 70%;
+	position:relative;
+	text-align: center;
+}
+.content p{
+
+	line-height: 1.7;
+	letter-spacing: 1px;
+  	word-spacing: 2px;
+	text-align: left;
+	font-size: 22px;
+	padding-left:30px;
+	padding-right:30px; 
+}
+.content p span{
+	display: block
+}
+/* General class applied to all paragraphs and titles.Note that they are in 
+a container and we edit the container*/
+.paragraf{
+padding-bottom:150px; 
+}
+#more{
+	display: none;
+}
+#maiMult{
+	display: none;
+}
+#buton{
+	-webkit-transition-duration: 0.4s;
+  	transition-duration: 0.4s;
+	height: 50px;
+	width: 100px;
+	background-color: #f2f2f2;
+	border: inherit;
+}
+#buton:hover{
+	background-color: #D9D9D9;
+	box-shadow: 5px 12px 16px 0 rgba(0,0,0,0.24);
+}
+#buton button:active{
+	border:inherit;
+
+}
+#buton1{
+	-webkit-transition-duration: 0.4s;
+  	transition-duration: 0.4s;
+	height: 50px;
+	width: 100px;
+	background-color: #f2f2f2;
+	border: inherit;
+}
+#buton1:hover{
+	background-color: #D9D9D9;
+	box-shadow: 5px 12px 16px 0 rgba(0,0,0,0.24);
+}
+#buton1 button:active{
+	border:inherit;
+	
+}
+.Categories_bar{
+	font: Arial;
+	margin-top: -5px;
+	background-color: #EFEFEF;
+	display: inline-block;
+	float:right;
+	width: 15%;
+	height:660px;
+	border-radius: 2px;
+	border:1px solid #ddd;
+	border-right: 0px;
+	border-left: 0px;
+}
+.Categories_bar ul{
+	list-style-type: none;
+
+}
+.Categories_bar li{
+	padding:2px;
+	padding-top: 15px;
+}
+.Categories_bar a{
+	text-decoration:none;
+	color:#8DB9D8;
+}
+.Footer_{
+	width: 100%;
+	height: 10%;
+	background-color: black;
+}
